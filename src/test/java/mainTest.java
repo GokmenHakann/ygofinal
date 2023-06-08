@@ -1,10 +1,11 @@
 import java.util.ArrayList;
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.Test;
+import static org.junit.Assert.assertTrue;
 
-class mainTest {
+public class mainTest {
 
-    @org.junit.jupiter.api.Test
-        void votePrint() {
+    @Test
+        public void TestvotePrint() {
         //given
 
         //when
@@ -13,10 +14,10 @@ class mainTest {
 
     }
 
-    @org.junit.jupiter.api.Test
-        void testvotePlus() {
+    @Test
+        public void TestvotePlus() {
         //given
-
+        main.PartyList.clear();
         //when
         main.VotePlus("Eclipse");
         //then
@@ -24,8 +25,8 @@ class mainTest {
     }
 
 
-    @org.junit.jupiter.api.Test
-        void voteReduce() {
+    @Test
+        public void TestvoteReduce() {
         //given
         main.PartyList.clear();
         //when
