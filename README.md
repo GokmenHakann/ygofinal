@@ -1,4 +1,5 @@
 ygofinal
+
 Bu projede amaç bir seçim senaryosunu ve testlerini yazmak
 
 bu yüzden bir main sınıfım ve test sınıfım var
